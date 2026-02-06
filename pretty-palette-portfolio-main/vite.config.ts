@@ -5,8 +5,6 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Base path pour GitHub Pages : https://username.github.io/pretty-palette-portfolio/
-  base: "/pretty-palette-portfolio-main/",
   server: {
     host: "::",
     port: 8080,
